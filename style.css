@@ -119,17 +119,14 @@ section {
 
 .section-one {
   background-image: url(./img/hero-bg.jpg);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
 }
 
 .section-one,
 .section-three {
   color: var(--clr-neutral-100);
+  background-color: var(--clr-primary-400);
 }
 
 .section-three {
