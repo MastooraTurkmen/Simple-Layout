@@ -79,6 +79,7 @@ h1,
 h2,
 h3 {
   font-weight: var(--fw-700);
+  line-height: 1.1;
 }
 
 h1 {
@@ -94,7 +95,7 @@ h3 {
 }
 
 section {
-  padding: 10em 7.5em;
+  padding: 10em 0;
 }
 
 
