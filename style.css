@@ -76,6 +76,13 @@ body {
   padding: 1.5rem;
 }
 
+.bg-primary-300 {
+  background-color: var(--clr-primary-300);
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 
 
 /* typography */
