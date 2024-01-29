@@ -133,3 +133,39 @@ section {
 .flow-content>*+* {
   margin-top: var(--flow-spacer, 1em);
 }
+
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.split>*+* {
+  margin: 4rem 0 0 0;
+}
+
+.split>* {
+  flex-basis: 100%;
+}
+
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+
+  .split>*+* {
+    margin: 0 0 0 2.5rem;
+  }
+
+}
+
+.xl-space {
+  margin-top: 5rem;
+}
+
+
+/* homepage styles */
+
+.intro {
+  --flow-spacer: 2em
+}
