@@ -112,8 +112,12 @@ h3,
   color: var(--clr-neutral-900);
 }
 
-
 /* general layout */
+
+
+section {
+  padding: 3.5rem;
+}
 
 .container {
   max-width: 50rem;
