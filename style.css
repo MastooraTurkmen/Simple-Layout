@@ -199,8 +199,10 @@ section {
 .call-to-action form {
   display: flex;
   gap: 3rem;
+  margin-top: 3rem;
 }
-.call-to-action form > div {
+
+.call-to-action form>div {
   flex-grow: 1;
   flex-basis: 100%;
   flex-shrink: 1;
@@ -208,6 +210,7 @@ section {
 
 .call-to-action input {
   width: 100%;
+  border: 0;
 }
 
 .call-to-action label {
