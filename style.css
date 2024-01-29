@@ -67,6 +67,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  border-radius: var(--br);
 }
 
 body {
@@ -177,6 +178,12 @@ section {
   font-size: var(--fs-500);
 }
 
+.article-preview img {
+  object-fit: cover;
+  height: 12.5rem;
+  width: 100%;
+}
+
 .article-preview .info {
   display: flex;
   font-weight: var(--fw-400);
@@ -188,6 +195,24 @@ section {
   margin-right: 2rem;
 }
 
+
+.call-to-action form {
+  display: flex;
+  gap: 3rem;
+}
+.call-to-action form > div {
+  flex-grow: 1;
+  flex-basis: 100%;
+  flex-shrink: 1;
+}
+
+.call-to-action input {
+  width: 100%;
+}
+
+.call-to-action label {
+  display: block;
+}
 
 /* homepage styles */
 
