@@ -106,6 +106,12 @@ h3,
   font-size: var(--fs-600);
 }
 
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--clr-neutral-900);
+}
+
 
 /* general layout */
 
