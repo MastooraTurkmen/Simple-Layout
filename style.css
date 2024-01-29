@@ -53,6 +53,22 @@ p {
   margin: 0;
 }
 
+
+/* typography */
+
+h1,
+h2,
+h3,
+.section-subtitle,
+.text-serif {
+  font-family: var(--ff-serif);
+  font-weight: var(--fw-200);
+}
+
+.text-500 {
+  font-size: var(--fs-500);
+}
+
 .page-intro {
   font-size: var(--fs-600);
 }
@@ -74,6 +90,6 @@ p {
   margin: 0 auto;
 }
 
-.flow-content >*+* {
+.flow-content>*+* {
   margin-top: var(--flow-spacer, 1em);
 }
