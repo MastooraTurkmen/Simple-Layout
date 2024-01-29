@@ -171,6 +171,24 @@ section {
 }
 
 
+/* Components */
+
+.article-preview {
+  font-size: var(--fs-500);
+}
+
+.article-preview .info {
+  display: flex;
+  font-weight: var(--fw-400);
+  font-size: var(--fs-200);
+  color: var(--clr-neutral-400);
+}
+
+.article-preview .info>*:first-child {
+  margin-right: 2rem;
+}
+
+
 /* homepage styles */
 
 .intro {
