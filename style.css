@@ -52,3 +52,28 @@ h3,
 p {
   margin: 0;
 }
+
+.page-intro {
+  font-size: var(--fs-600);
+}
+
+.section-title {
+  font-size: var(--fs-600);
+  color: var(--clr-neutral-400);
+}
+
+.section-subtitle {
+  font-size: var(--fs-600);
+}
+
+
+/* general layout */
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.flow-content >*+* {
+  margin-top: var(--flow-spacer, 1em);
+}
