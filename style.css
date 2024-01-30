@@ -211,10 +211,20 @@ section {
 .call-to-action input {
   width: 100%;
   border: 0;
+  border-bottom: 2px solid var(--clr-neutral-300);
+}
+
+.call-to-action input::placeholder {
+  color: var(--clr-neutral-300);
+  opacity: 1;
+
 }
 
 .call-to-action label {
   display: block;
+  font-size: var(--fs-300);
+  font-weight: var(--fw-400);
+  margin-bottom: 0.5em;
 }
 
 /* homepage styles */
