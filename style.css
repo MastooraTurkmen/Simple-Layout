@@ -123,12 +123,18 @@ h3,
   background: none;
   font-weight: var(--fw-700);
   font-size: var(--clr-neutral-300);
+  font-family: var(--ff-sans);
 }
 
 .btn::after {
   content: "\203A";
   margin-left: 1em;
   font-weight: var(--fw-300);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--clr-primary-400);
 }
 
 /* general layout */
@@ -225,10 +231,16 @@ section {
   border-bottom: 2px solid var(--clr-neutral-300);
 }
 
+.call-to-action input:focus {
+  border-color: var(--clr-primary-400);
+  border-width: 4px;
+}
+
 .call-to-action input::placeholder {
   color: var(--clr-neutral-300);
   opacity: 1;
-
+  font-size: var(--fs-300);
+  
 }
 
 .call-to-action label {
