@@ -118,6 +118,17 @@ h3,
   display: inline-block;
   text-decoration: none;
   color: var(--clr-neutral-900);
+  cursor: pointer;
+  border: 0;
+  background: none;
+  font-weight: var(--fw-700);
+  font-size: var(--clr-neutral-300);
+}
+
+.btn::after {
+  content: "\203A";
+  margin-left: 1em;
+  font-weight: var(--fw-300);
 }
 
 /* general layout */
