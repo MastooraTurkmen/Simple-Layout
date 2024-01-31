@@ -97,6 +97,17 @@ h3,
   font-weight: var(--fw-200);
 }
 
+a {
+  font-weight: var(--fw-700);
+  font-size: var(--fs-300);
+  color: var(--clr-neutral-900);
+}
+
+a:hover,
+a:focus {
+  color: var(--clr-primary-400);
+}
+
 .text-500 {
   font-size: var(--fs-500);
 }
@@ -122,7 +133,7 @@ h3,
   border: 0;
   background: none;
   font-weight: var(--fw-700);
-  font-size: var(--clr-neutral-300);
+  font-size: var(--fs-300);
   font-family: var(--ff-sans);
 }
 
@@ -259,12 +270,6 @@ section {
   margin-right: 4em;
 }
 
-.footer-nav a {
-  text-decoration: none;
-  font-weight: var(--fw-700);
-  font-size: var(--fs-300);
-  color: var(--clr-neutral-900);
-}
 
 /* homepage styles */
 
