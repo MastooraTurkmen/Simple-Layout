@@ -269,6 +269,9 @@ section {
   margin: 2em 0;
 }
 
+footer {
+  padding-bottom: 1em;
+}
 
 .footer-nav {
   display: flex;
