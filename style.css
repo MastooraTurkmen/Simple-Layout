@@ -261,6 +261,14 @@ section {
   margin-bottom: 0.5em;
 }
 
+.primary-footer_inner {
+  --border: 2px solid var(--clr-neutral-200);
+  border-top: var(--border);
+  border-bottom: var(--border);
+  padding: 3em 0;
+  margin: 2em 0;
+}
+
 
 .footer-nav {
   display: flex;
@@ -270,6 +278,14 @@ section {
   margin-right: 4em;
 }
 
+.footer-social {
+  display: flex;
+  gap: 2em;
+}
+
+.footer-social a {
+  font-weight: var(--fw-200);
+}
 
 /* homepage styles */
 
