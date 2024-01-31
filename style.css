@@ -235,6 +235,10 @@ section {
   .call-to-action form {
     flex-direction: row;
   }
+
+  .call-to-action button {
+    margin-right: unset;
+  }
 }
 
 .call-to-action form>div {
@@ -247,6 +251,10 @@ section {
   width: 100%;
   border: 0;
   border-bottom: 2px solid var(--clr-neutral-300);
+}
+
+.call-to-action button {
+  margin-right: auto;
 }
 
 .call-to-action input:focus {
