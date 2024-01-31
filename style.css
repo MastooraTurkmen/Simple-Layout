@@ -202,6 +202,13 @@ section {
 
 /* Components */
 
+header {
+  background-color: var(--clr-primary-400);
+  min-height: 50vh;
+  border-radius: var(--br);
+  padding: 2em;
+}
+
 .article-preview {
   font-size: var(--fs-500);
 }
