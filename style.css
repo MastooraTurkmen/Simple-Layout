@@ -240,7 +240,7 @@ section {
   color: var(--clr-neutral-300);
   opacity: 1;
   font-size: var(--fs-300);
-  
+
 }
 
 .call-to-action label {
@@ -248,6 +248,22 @@ section {
   font-size: var(--fs-300);
   font-weight: var(--fw-400);
   margin-bottom: 0.5em;
+}
+
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav>*:first-child {
+  margin-right: 4em;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-weight: var(--fw-700);
+  font-size: var(--fs-300);
+  color: var(--clr-neutral-900);
 }
 
 /* homepage styles */
