@@ -276,6 +276,26 @@ section {
   }
 }
 
+.secondary-navigation {
+  display: flex;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.categories {
+  display: flex;
+  margin: 0;
+  gap: 1rem;
+}
+
+.categories button {
+  cursor: pointer;
+  font-size: var(--fs-200);
+  text-transform: uppercase;
+  background: transparent;
+  border: 0;
+}
+
 .article-preview h3 {
   font-size: var(--fs-500);
 }
