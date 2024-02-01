@@ -229,7 +229,28 @@ section {
 
 .page-blog .primary-header {
   background-image: url(./img/blog.jpg);
-  background-position: center center;
+  background-position: left center;
+}
+
+.page-article .primary-header {
+  background-image: url(./img/article.jpg);
+  background-position: left center;
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-article .primary-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 25%;
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.45),
+      rgba(255, 255, 255, 0s));
+  z-index: -1;
 }
 
 .primary-nav {
