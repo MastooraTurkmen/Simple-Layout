@@ -4,22 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>acme website co.</title>
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&family=IBM+Plex+Serif:wght@200&display=swap"
     rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="page-home">
   <header class="primary-header">
     <div class="primary-header__inner">
-      <a href="./index.html" aria-label="acme home page"><img src="img/logo.svg" alt="" class="logo"></a>
+      <a href="index.html" aria-label="acme home page"><img src="img/logo.svg" alt="" class="logo"></a>
       <nav class="primary-nav">
         <ul class="primary-nav__list">
-          <li><a href="./index.html">Home</a></li> 
-          <li><a href="blog.html">Blog</a></li> 
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
         </ul>
       </nav>
     </div>
@@ -28,8 +27,9 @@
   <section class="intro text-serif">
     <div class="container flow-content">
       <h1 class="page-title">Lorem ipsum dolor sit amet, consectet adipiscing</h1>
-      <p class="page-intro xl-space">Lorem ipsum dolor sit amet, consectet adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      <p class="page-intro">Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor
+        incididunt ut
+        labore et dolore magna.</p>
       <a href="#" class="btn">Connect</a>
     </div>
   </section>
@@ -40,51 +40,58 @@
         <h2 class="section-title">About</h2>
       </header>
       <div class="flow-content">
-        <p>Lorem ipsum dolor sit amet, consectet adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore dolore magna sed do amet.</p>
-        <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore dolore magna sed do amet.</p>
+        <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore
+          magna
+          sed do amet.</p>
+        <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna. Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna.</p>
       </div>
+
     </div>
   </section>
 
-<section class="recent-articles bg-primary-300">
+  <section class="recent-articles bg-primary-300">
     <div class="container">
       <header>
         <h2 class="section-title">Blog</h2>
         <p class="section-subtitle">Latest thoughts, news and ideas</p>
       </header>
+
       <div class="split xl-space">
+
         <article class="article-preview flow-content">
-          <img src="./img/blog-1.jpg" alt="">
+          <img src="img/blog-1.jpg" alt="electric drill">
           <h3>Lorem ipsum dolor sit amet, consectet adipiscing</h3>
           <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
           <div class="info">
-            <time datetime="2024-01-28">Jan 28</time>
+            <time datetime="2020-10-08">Oct 8</time>
             <p>8 min read</p>
           </div>
         </article>
         <article class="article-preview flow-content">
-          <img src="./img/blog-2.jpg" alt="">
-          <h3>Lorem ipsum dolor sit amet, consectet adipiscing</h3>
+          <img src="img/blog-2.jpg" alt="cactus">
+          <h3>Lorem ipsum </h3>
           <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
           <div class="info">
-            <time datetime="2024-01-28">Jan 28</time>
+            <time datetime="2020-10-08">Oct 8</time>
             <p>8 min read</p>
           </div>
         </article>
         <article class="article-preview flow-content">
-          <img src="./img/blog-3.jpg" alt="">
+          <img src="img/blog-3.jpg" alt="insulated water bottle">
           <h3>Lorem ipsum dolor sit amet, consectet adipiscing</h3>
           <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
           <div class="info">
-            <time datetime="2024-01-28">Jan 28</time>
+            <time datetime="2020-10-08">Oct 8</time>
             <p>8 min read</p>
           </div>
         </article>
+
+
       </div>
     </div>
-</section>
+  </section>
 
   <section class="call-to-action">
     <div class="container">
@@ -92,16 +99,16 @@
         <h2 class="section-title">Inbox</h2>
         <p class="section-subtitle">Knowledge letters</p>
       </header>
-      <img class="xl-space" src="./img/newsletter.jpg" alt="">
+      <img class="xl-space" src="img/newsletter.jpg" alt="floating items">
 
-      <form action="" class="newsletter" method="post">
+      <form action="" method="post" class="newsletter">
         <div>
-          <label for="text">Name</label>
-          <input type="text" name="text" id="text" placeholder="Your Name">
+          <label for="name">Name</label>
+          <input placeholder="Your Name" type="text" id="name" name="name">
         </div>
         <div>
           <label for="email">Email</label>
-          <input type="email" name="text" id="email" placeholder="example@domain.com">
+          <input placeholder="example@domain.com" type="email" name="email" id="email">
         </div>
         <button class="btn" type="submit">Subscribe</button>
       </form>
@@ -110,9 +117,9 @@
 
   <footer class="primary-footer">
     <div class="container">
-      <div class="primary-footer_inner split">
-        <a href="./index.html" aria-label="acme home page"><img src="img/logo.svg" alt="" class="logo"></a>
-        
+      <div class="primary-footer__inner split">
+        <a href="index.html" aria-label="acme home page"><img src="img/logo.svg" alt="" class="logo"></a>
+
         <div class="footer-nav">
           <dl class="flow-content">
             <dt class="text-serif">Map</dt>
@@ -121,16 +128,15 @@
           </dl>
 
           <dl class="flow-content">
-            <dt class="text-serif">Recourses</dt>
+            <dt class="text-serif">Resources</dt>
             <dd><a href="#">Courses</a></dd>
             <dd><a href="#">Hacks</a></dd>
-            <dd><a href="#">Free Stuff</a></dd>
+            <dd><a href="#">Free stuff</a></dd>
           </dl>
         </div>
       </div>
-
       <div class="split text-serif">
-        <p class="copywrite">© 2024 acme. All rights reserved</p>
+        <p class="copywrite">© 2020 acme. All rights reserved </p>
         <ul class="footer-social">
           <li><a href="#">Yt</a></li>
           <li><a href="#">Tw</a></li>
@@ -140,7 +146,6 @@
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>
