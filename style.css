@@ -282,6 +282,10 @@ section {
   align-items: center;
 }
 
+.secondary-navigation>a:last-child {
+  margin-left: auto;
+}
+
 .categories {
   display: flex;
   margin: 0;
